@@ -1,6 +1,9 @@
 1. We have two python files. 
-    a. Extract_watermark.py
-    b. task_template.py
+
+   a. Extract_watermark.py
+
+   b. task_template.py
+
 2. Execute first file for extracting the watermark from the WM images. It uses the functions and the predefined model from the Github repo.
 3. This code saves the deltas into a folder.
 4. After that execute the task_template.py to execute the forgery attack and here we can load the delta folder and forge the target images with the extracted watermarks. 
